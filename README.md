@@ -1,8 +1,7 @@
 # Waniwani
-Short description and motivation.
+waniwani
 
 ## Usage
-How to use my plugin.
 
 ## Installation
 Add this line to your application's Gemfile:
@@ -14,11 +13,6 @@ gem 'waniwani'
 And then execute:
 ```bash
 $ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install waniwani
 ```
 
 ## Contributing

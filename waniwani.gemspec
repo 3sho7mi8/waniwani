@@ -9,14 +9,14 @@ Gem::Specification.new do |s|
   s.version     = Waniwani::VERSION
   s.authors     = ["3sho7mi8"]
   s.email       = ["hiro.pinot@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Waniwani."
-  s.description = "TODO: Description of Waniwani."
+  s.homepage    = "https://github.com/3sho7mi8"
+  s.summary     = "waniwani"
+  s.description = "waniwani"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.1.4"
+  s.add_dependency "rails"
 
   s.add_development_dependency "sqlite3"
 end
