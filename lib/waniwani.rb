@@ -1,5 +1,9 @@
 require 'sass'
 
 module Waniwani
-  Sass.load_paths << File.expand_path("../../app/assets/stylesheets", __FILE__)
+  class Railtie < ::Rails::Railtie
+    rake_tasks do
+      load "tasks/waniwani.rake"
+    end
+  end
 end
