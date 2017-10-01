@@ -1,0 +1,27 @@
+=media($break-point)
+  @media screen and (max-width: $break-point)
+    @content
+
+=font-control($variable)
+  @if $variable == text
+    font-size: $font-size-base
+    +media($phone)
+      font-size: $font-size-base - .1rem
+  @else if $variable == sub_text
+    font-size: $font-size-base - .15rem
+    +media($phone)
+      font-size: $font-size-base - .25rem
+  @else if $variable == title
+    font-size: $font-size-base + .4rem
+    +media($phone)
+      font-size: $font-size-base + .3rem
+  @else if $variable == sub_title
+    font-size: $font-size-base + .3rem
+    +media($phone)
+      font-size: $font-size-base + .2rem
+    +media($mobile)
+      font-size: $font-size-base + .1rem
+  @else if $variable == info
+    font-size: $font-size-base - .3rem
+    +media($phone)
+      font-size: $font-size-base - .5rem
